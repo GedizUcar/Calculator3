@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .main-wrapper {
+    width: fit-content;
+    height: fit-content;
+    padding: 40px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 8px rgb(252, 252, 252);
+    border: 2px solid rgb(105, 105, 105);
+  }
+  
+  h1 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  
+  .btn {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    box-shadow: 6px 6px 5px black;
+  }
+  
+  .btn:hover {
+    box-shadow: inset 3px 3px 8px black;
+  }
+  
+  .clear-btn {
+    margin-left: 20px;
+  }
+  
+  .display-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .input-screen {
+    width: 270px;
+    height: 75px;
+    border: 1px solid white;
+    margin-right: 5px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    background-color: rgba(172, 255, 47, 0.432);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: inset 0px 0px 5px 2px greenyellow;
+  }
+  
+  #current-input {
+    font-size: 30px;
+    color: greenyellow;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  #previous-input {
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px black;
+  }
